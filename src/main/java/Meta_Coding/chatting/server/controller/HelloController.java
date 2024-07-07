@@ -12,9 +12,10 @@ public class HelloController {
     public String hello(){
         return "테스트입니다";
     }
-    @GetMapping("")
-    public String m(){
-        return "main 화면입니다";
+    @GetMapping("/test")
+    public String hello2(){
+        return "테스트입니다";
     }
+
 
 }
